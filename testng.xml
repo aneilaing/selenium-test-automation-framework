@@ -1,8 +1,10 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Selenium Test Suite">
-    <test name="Login Tests">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <test name="UI and API Tests">
         <classes>
             <class name="tests.LoginTest"/>
+            <class name="tests.AddToCartTest"/>
+            <class name="tests.ApiTest"/>
         </classes>
     </test>
 </suite>
